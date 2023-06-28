@@ -1,0 +1,50 @@
+
+.navbar {
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    outline: 5px solid white;
+
+
+  }
+
+  .navbar-title {
+    font-size: 24px;
+  }
+
+  .navbar-sections {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+
+  .navbar-section {
+    margin-right: 10px;
+  }
+
+  .navbar-section a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+  }
+
+
+  body {
+    opacity: 0;
+    animation: fade-in 2s ease-in-out forwards;
+  }
+
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  body{
+    background-color: black;
+    outline: 10px solid white;
+  }
